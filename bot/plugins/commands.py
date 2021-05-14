@@ -18,24 +18,27 @@ async def start(bot, update):
         file_uid = False
     
     if file_uid:
-        file_id, file_type = await db.get_file(file_uid)
+        file_id, file_name, file_caption, file_type = await db.get_file(file_uid)
         
         if (file_id or file_type) == None:
             return
+        
+        caption = file_caption if file_caption != ("" or None) else ("<code>" + file_name + "</code>")
         
         if file_type == "document":
         
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = '',
+                caption = caption,
+                parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/MrC_VENOM"
+                                    'Developer', url="https://t.me/MrC_VENOM"
                                 )
                         ]
                     ]
@@ -44,15 +47,17 @@ async def start(bot, update):
 
         elif file_type == "video":
         
-            await update.reply_video(
-                file_id,
-                quote=True,
+            await bot.send_video(
+                chat_id=update.chat.id,
+                video = file_id,
+                caption = caption,
+                parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'My Dev 👨‍🔬', url="https://t.me/MrC_VENOM"
+                                    'Developer', url="https://t.me/MrC_VENOM"
                                 )
                         ]
                     ]
@@ -61,15 +66,17 @@ async def start(bot, update):
             
         elif file_type == "audio":
         
-            await update.reply_audio(
-                file_id,
-                quote=True,
+            await bot.send_audio(
+                chat_id=update.chat.id,
+                audio = file_id,
+                caption = caption,
+                parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'My Dev 👨‍🔬', url="https://t.me/MrC_VENOM"
+                                    'Developer', url="https://t.me/MrC_VENOM"
                                 )
                         ]
                     ]
@@ -83,7 +90,7 @@ async def start(bot, update):
 
     buttons = [[
         InlineKeyboardButton('Developers', url='https://t.me/MrC_VENOM'),
-        InlineKeyboardButton('Support Group', url ='https://t.me/tvseriezzz')
+        InlineKeyboardButton('Support Group ✅', url ='https://t.me/tvseriezzz')
     ],[
         InlineKeyboardButton('Support 🛠', url='https://t.me/tvseriezzz')
     ],[
@@ -139,4 +146,3 @@ async def about(bot, update):
         parse_mode="html",
         reply_to_message_id=update.message_id
     )
-    
