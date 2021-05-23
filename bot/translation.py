@@ -4,18 +4,14 @@
 
 class Translation(object):
     
-    START_TEXT = """<b>Hey {}!!</b>
-<i>Am Just A Advance Auto Filter Bot....😉
-
-Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝
-
-For More Details Click Help Button Below..
-@tvseriezzz
+    START_TEXT = """<b>ഹായ {}!!</b>
+<i>ഞാൻ @tvseriezzz എന്ന ഗ്രൂപ്പിൽ മൂവീസ് കൊടുക്കുന്ന ബോട്ട് ആണ് 
+ 
+എന്നെ മറ്റു ഗ്രൂപ്പിൽ ഒന്നും ഉപയോഗിക്കാൻ കഴിയുകയില്ല
 </i>"""    
-    
-    HELP_TEXT = """
-<b><i><u>How To Use Me!?</u></i></b>
 
+SAITAMA_IMG = "https://telegra.ph/file/07c1c3c897dda52727dfb.jpg"
+    
 <i>
 -> Add Me To Any Group And Make Me Admin
 -> Add Me To Your Desired Channel
