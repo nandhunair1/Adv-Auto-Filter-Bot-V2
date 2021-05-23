@@ -5,12 +5,11 @@
 class Translation(object):
     
     START_TEXT = """<b>ഹായ {}!!</b>
-<i>ഞാൻ @tvseriezzz എന്ന ഗ്രൂപ്പിൽ മൂവീസ് കൊടുക്കുന്ന ബോട്ട് ആണ് 
+
+<b>ഞാൻ @tvseriezzz എന്ന ഗ്രൂപ്പിൽ മൂവീസ് കൊടുക്കുന്ന ബോട്ട് ആണ് 
  
 എന്നെ മറ്റു ഗ്രൂപ്പിൽ ഒന്നും ഉപയോഗിക്കാൻ കഴിയുകയില്ല
-</i>"""    
-
-    SAITAMA_IMG = "https://telegra.ph/file/07c1c3c897dda52727dfb.jpg"
+</b>"""
     
     HELP_TEXT = """
 <b><i><u>How To Use Me!?</u></i></b>
