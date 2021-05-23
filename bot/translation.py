@@ -10,8 +10,11 @@ class Translation(object):
 എന്നെ മറ്റു ഗ്രൂപ്പിൽ ഒന്നും ഉപയോഗിക്കാൻ കഴിയുകയില്ല
 </i>"""    
 
-SAITAMA_IMG = "https://telegra.ph/file/07c1c3c897dda52727dfb.jpg"
+    SAITAMA_IMG = "https://telegra.ph/file/07c1c3c897dda52727dfb.jpg"
     
+    HELP_TEXT = """
+<b><i><u>How To Use Me!?</u></i></b>
+
 <i>
 -> Add Me To Any Group And Make Me Admin
 -> Add Me To Your Desired Channel
