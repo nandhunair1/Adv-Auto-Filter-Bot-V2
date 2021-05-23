@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developer', url="https://t.me/MrC_VENOM"
+                                    '❣ Click To Share ❣', url="http://t.me/share/url?url=https://t.me/tvseriezzz"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developer', url="https://t.me/MrC_VENOM"
+                                    '❣ Click To Share ❣', url="http://t.me/share/url?url=https://t.me/tvseriezzz"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developer', url="https://t.me/MrC_VENOM"
+                                    '❣ Click To Share ❣', url="http://t.me/share/url?url=https://t.me/tvseriezzz"
                                 )
                         ]
                     ]
