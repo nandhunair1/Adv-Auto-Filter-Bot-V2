@@ -92,9 +92,7 @@ async def start(bot, update):
         InlineKeyboardButton('Developers', url='https://t.me/MrC_VENOM'),
         InlineKeyboardButton('Support Group ✅', url ='https://t.me/tvseriezzz')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/tvseriezzz')
-    ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
+        InlineKeyboardButton('Chat Group ✔', url='https://t.me/MrCVENOM_chat')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
