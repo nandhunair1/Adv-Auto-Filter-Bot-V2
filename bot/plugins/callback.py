@@ -1680,8 +1680,6 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "about": 
         buttons = [[
-            InlineKeyboardButton('👤 Mrc《》VENOM 👤', url='https://t.me/Mrc_VENOM')
-        ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('Close 🔐', callback_data='close')
         ]]
