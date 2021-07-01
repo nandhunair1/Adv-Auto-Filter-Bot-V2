@@ -90,7 +90,7 @@ async def start(bot, update):
 
     buttons = [[
             InlineKeyboardButton('👨‍💼𝙼𝚢 𝙳𝚎𝚟', url='https://t.me/Mrc_VENOM'),
-            InlineKeyboardButton('support Group 🧾', url ='https://t.me/tvseriezzz')
+            InlineKeyboardButton('Support Group 🧾', url ='https://t.me/tvseriezzz')
         ],[
             InlineKeyboardButton('⚙️𝙷𝚎𝚕𝚙⚙️', callback_data="help")
         ],[
