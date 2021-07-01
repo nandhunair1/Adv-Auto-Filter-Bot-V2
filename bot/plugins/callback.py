@@ -89,8 +89,8 @@ async def cb_navg(bot, update: CallbackQuery):
 
     else:
         temp_results.append([
-            InlineKeyboardButton("«««", callback_data=f"navigate({index_val}|back|{query})"),
-            InlineKeyboardButton("»»»", callback_data=f"navigate({index_val}|next|{query})")
+            InlineKeyboardButton("🔙 Back", callback_data=f"navigate({index_val}|back|{query})"),
+            InlineKeyboardButton("Next ⏩", callback_data=f"navigate({index_val}|next|{query})")
         ])
 
     if not int(index_val) == 0:    
