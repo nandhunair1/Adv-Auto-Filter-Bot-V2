@@ -62,13 +62,13 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '❣ Click To Share ❣', url="http://t.me/share/url?url=https://t.me/tvseriezzz"
+                                    '🔔Join Main Channel🔔', url=f"{MT_CHANNEL}"
                                 )
                         ],
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔊 Bot Updates 🔊', url=f"{Mrc_VENOM}"
+                                    '🔊 Bot Updates 🔊', url=f"{MT_BOT_UPDATES}"
                                 )
                         ]
                     ]
@@ -164,6 +164,8 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
+        InlineKeyboardButton('👤 MrC《》VENOM 👤', url='https://t.me/MrC_VENOM')
+    ],[
         InlineKeyboardButton('🏠 Home', callback_data='start'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
