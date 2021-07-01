@@ -165,9 +165,7 @@ async def about(bot, update):
     
     buttons = [[
         InlineKeyboardButton('👤 Mrc《》VENOM  👤', url='https://t.me/Mrc_VENOM')
-        InlineKeyboardButton('🎭 Support Group 🎭', url='https://t.me/tvseriezzz')
-    ],[
-        InlineKeyboardButton('📢 Update Channel 📢', url='https://t.me/tvseriezzz_update')
+        InlineKeyboardButton('📢 Support Group 📢', url='https://t.me/tvseriezzz')
     ],[
         InlineKeyboardButton('🏠 Home', callback_data='start'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
