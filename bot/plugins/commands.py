@@ -89,11 +89,16 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/MrC_VENOM'),
-        InlineKeyboardButton('Support Group ✅', url ='https://t.me/tvseriezzz')
-    ],[
-        InlineKeyboardButton('Chat Group ✔', url='https://t.me/MrCVENOM_chat')
-    ]]
+            InlineKeyboardButton('👨‍💼𝙼𝚢 𝙳𝚎𝚟', url='https://t.me/Mrc_VENOM'),
+            InlineKeyboardButton('support Group 🧾', url ='https://t.me/tvseriezzz')
+        ],[
+            InlineKeyboardButton('⚙️𝙷𝚎𝚕𝚙⚙️', callback_data="help")
+        ],[
+            InlineKeyboardButton('🗣️𝙰𝚗𝚢 𝙳𝚘𝚞𝚋𝚝', url='https://t.me/Mrc_VENOM'),
+            InlineKeyboardButton('𝚄𝚙𝚍𝚊𝚝𝚎𝚜🤖', url='https://t.me/tvseriezzz_update')
+        ],[
+            InlineKeyboardButton('Chat Group ✔', url='https://t.me/MrCVENOM_chat')
+        ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
