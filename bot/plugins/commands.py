@@ -164,8 +164,6 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('👤 Mrc《》VENOM  👤', url='https://t.me/Mrc_VENOM')
-    ],[
         InlineKeyboardButton('🏠 Home', callback_data='start'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
