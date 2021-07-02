@@ -284,4 +284,5 @@ async def recacher(group_id, ReCacheInvite=True, ReCacheActive=False, bot=Bot, u
                 achatId.append(int(x["chat_id"]))
             
             ACTIVE_CHATS[str(group_id)] = achatId
-    return 
+    return
+
