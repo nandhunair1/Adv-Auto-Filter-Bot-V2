@@ -10,6 +10,9 @@ from logging.handlers import RotatingFileHandler
 
 from .translation import Translation
 
+# Created https://github.com/nandhu663
+MASSAGE_PHOTO = os.environ.get("TEXT_MEG_PH")
+
 # Change Accordingly While Deploying To A VPS
 APP_ID = int(os.environ.get("APP_ID"))
 
